@@ -1,0 +1,27 @@
+{
+  "name": "eduapp_backend",
+  "version": "1.0.0",
+  "description": "edu app Backend in node js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "mongo",
+    "db"
+  ],
+  "author": "Ali",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3"
+  }
+}
